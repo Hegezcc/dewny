@@ -51,10 +51,9 @@
                                         href="https://sequelize.org/v5/manual/getting-started.html">More
                                         info</a></small></li>
                                 <li>Copy <code>node/config/auth.example.json</code> to
-                                    <code>node/config/auth.json</code> and
-                                    configure it to match your credentials. You might also want to take a look at
-                                    <code>node/config/config.mjs</code> .
-                                </li>
+                                    <code>node/config/auth.json</code> and configure it to match your credentials.</li>
+                                <li>Copy <code>node/config/config.example.mjs</code> to
+                                    <code>node/config/config.mjs</code> and configure it to match your setup.</li>
                                 <li>Test the app by running <code>npm run start</code> . If no errors show up, you are
                                     good to continue. In this documentation we are using
                                     <code>{{ $root.apiRoutes.node }}</code> to signify Node.js API URLs. If service is

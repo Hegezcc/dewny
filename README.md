@@ -33,7 +33,7 @@ Appearance > Advanced and toggle Developer mode on. It allows you to right-click
    You should also install your preferred database driver, e.g. with `npm install mysql2` . 
    [More info](https://sequelize.org/v5/manual/getting-started.html)
  * Copy `node/config/auth.example.json` to `node/config/auth.json` and configure it to match your credentials. 
-   You might also want to take a look at `node/config/config.mjs` .
+ * Copy `node/config/config.example.mjs` to `node/config/config.mjs` and configure it to match your setup. 
  * Test the app by running `npm run start` . If no errors show up, you are good to continue.
 
 **Note:** you might want to daemonize the Node.js app to run as a service, so it is always running at background. 

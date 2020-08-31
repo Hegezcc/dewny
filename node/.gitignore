@@ -1,5 +1,6 @@
-# Auth configuration
+# Auth and configuration, these are copied from example files
 /config/auth.json
+/config/config.mjs
 
 # Logs
 logs
