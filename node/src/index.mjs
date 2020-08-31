@@ -268,6 +268,14 @@ async function notifyHandler(req, res) {
 // Initialize web server
 const app = express();
 
+if (config.express.trustProxy) {
+    if (config.express.trustProxy === true) {
+        app.set('trust proxy', 'loopback');
+    } else {
+        app.set('trust proxy', config.express.trustProxy);
+    }
+}
+
 // Use POST body parser
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());

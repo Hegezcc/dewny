@@ -13,7 +13,8 @@ const config = {
     port: 3000,
     frontendHosts: [
       "http://localhost", /^https?:\/\/192\.168\.[0-9]{1,3}\.[0-9]{1,3}$/, // wildcard is allowed too: "*"
-    ]
+    ],
+    trustProxy: false,
   }
 };
 
