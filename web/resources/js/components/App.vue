@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="body-container" class="d-flex flex-column">
         <Nav></Nav>
         <main>
             <router-view></router-view>
@@ -9,7 +9,7 @@
                 </div>
             </div>
         </main>
-        <Footer></Footer>
+        <Footer class="mt-auto"></Footer>
     </div>
 </template>
 
@@ -23,3 +23,8 @@
         }
     }
 </script>
+<style scoped>
+#body-container {
+    min-height: calc(100vh - 3.44rem);
+}
+</style>
