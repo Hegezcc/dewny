@@ -17,7 +17,7 @@ Live demo: [dewny.hgz.fi](https://dewny.hgz.fi/)
 Prerequisites:
 
  * Discord client and account
- * Node.js and npm on your system
+ * Node.js, npm and nvm on your system
  * Sequelize-compatible database configured, e.g. MySQL, PostgreSQL or SQLite
  * [Discord application and bot user](https://discord.com/developers/applications)
  * Project cloned to your server of choice
@@ -29,8 +29,8 @@ Appearance > Advanced and toggle Developer mode on. It allows you to right-click
 
 ### Node
 
- * If you haven't already, use command line to navigate to `node/` folder in the project and `run npm install` . 
-   You should also install your preferred database driver, e.g. `with npm install mysql2` . 
+ * Use command line to navigate to `node/` folder in the project and run `nvm use` and `npm install` . 
+   You should also install your preferred database driver, e.g. with `npm install mysql2` . 
    [More info](https://sequelize.org/v5/manual/getting-started.html)
  * Copy `node/config/auth.example.json` to `node/config/auth.json` and configure it to match your credentials. 
    You might also want to take a look at `node/config/config.mjs` .

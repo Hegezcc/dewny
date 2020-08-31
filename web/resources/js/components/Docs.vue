@@ -26,7 +26,7 @@
                             <h3 class="mt-5">Prerequisites</h3>
                             <ul>
                                 <li>Discord client and account</li>
-                                <li>Node.js and npm on your system</li>
+                                <li>Node.js, npm and nvm on your system</li>
                                 <li>Sequelize-compatible database configured, e.g. MySQL, PostgreSQL or SQLite</li>
                                 <li><a href="https://discord.com/developers/applications">Discord application and bot
                                     user</a></li>
@@ -45,8 +45,8 @@
                             <h3 class="mt-5">Configuration</h3>
                             <h4 class="mt-3">Node</h4>
                             <ul>
-                                <li>If you haven't already, use command line to navigate to <code>node/</code> folder in
-                                    the project and run <code>npm install</code> . You should also install your
+                                <li>Use command line to navigate to <code>node/</code> folder in the project and run
+                                    <code>nvm use</code> and<code>npm install</code> . You should also install your
                                     preferred database driver, e.g. with <code>npm install mysql2</code> . <small><a
                                         href="https://sequelize.org/v5/manual/getting-started.html">More
                                         info</a></small></li>
