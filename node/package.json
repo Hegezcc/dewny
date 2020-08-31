@@ -19,7 +19,6 @@
     "discord.js": "^12.2.0",
     "erlpack": "github:discord/erlpack",
     "express": "^4.17.1",
-    "mariadb": "^2.4.1",
     "sequelize": "^6.3.3",
     "utf-8-validate": "^5.0.2",
     "winston": "^3.3.3",
