@@ -1,0 +1,15 @@
+{
+  "discord_key": "CHANGETHIS",
+  "database": {
+    "database": "CHANGETHIS",
+    "username": "CHANGETHIS",
+    "password": "CHANGETHIS",
+    "options": {
+      "host": "127.0.0.1",
+      "dialect": "mysql",
+      "dialectOptions": {
+        "timezone": "UTC"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,600,700');
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+/* Fix navbar margin */
+body {
+    // Calculated from header combined heights:
+    // (0.32rem * 2) + (0.5rem * 2) + (1.125rem * 1.6)
+    //  ^ nav padding   ^ a padding    ^ a font-size and line-height
+    padding-top: 3.44rem;
+}
+
+/* Fix SVG imported into DOM */
+svg {
+    width: 100%;
+    height: auto;
+
+    // Make sure hover events are used
+    * {
+        pointer-events: all;
+    }
+}
+
+/* Fix skew effect overflow */
+#app {
+    overflow-x: hidden;
+}
+
+/* Additional utilities */
+.text-shadow {
+    text-shadow: 0.02em 0.05em 0.1em rgba(#000, 0.5);
+}
+a.text-shadow, .text-shadow a {
+    text-shadow: 0.02em 0.05em 0.05em rgba(#fff, 0.3);
+}
