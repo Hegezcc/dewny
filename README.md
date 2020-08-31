@@ -36,7 +36,10 @@ Appearance > Advanced and toggle Developer mode on. It allows you to right-click
  * Copy `node/config/config.example.mjs` to `node/config/config.mjs` and configure it to match your setup. 
  * Test the app by running `npm run start` . If no errors show up, you are good to continue.
 
-**Note:** you might want to daemonize the Node.js app to run as a service, so it is always running at background. 
+**Note:** during first run test Sequelize may say that tables do not exist. This is normal, as they will be created 
+later on during Laravel configuration.
+
+**Note #2:** you might want to daemonize the Node.js app to run as a service, so it is always running at background. 
 Depending on your system, you may use either your OS services (e.g. 
 [Systemd](https://nodesource.com/blog/running-your-node-js-app-with-systemd-part-1/), 
 [node-windows](http://bestirtech.com/blog/2019/02/node-windows-service-node-js-app/)), 

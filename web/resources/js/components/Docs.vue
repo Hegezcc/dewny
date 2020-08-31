@@ -62,8 +62,12 @@
                             </ul>
                             <div class="card border border-primary my-3">
                                 <div class="card-body py-2">
+                                    <p>
+                                        <b>Note:</b> during first run test Sequelize may say that tables do not exist.
+                                        This is normal, as they will be created later on during Laravel configuration.
+                                    </p>
                                     <p class="my-0">
-                                        <b>Note:</b> you might want to daemonize the Node.js app to run as a service, so
+                                        <b>Note #2:</b> you might want to daemonize the Node.js app to run as a service, so
                                         it is always running at background. Depending on your system, you may use either
                                         your OS services (e.g.
                                         <a href="https://nodesource.com/blog/running-your-node-js-app-with-systemd-part-1/">Systemd</a>,
