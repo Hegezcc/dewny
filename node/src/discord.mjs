@@ -1,5 +1,4 @@
 import {MessageEmbed, MessageAttachment} from "discord.js";
-import axios from "axios";
 import Sequelize from "sequelize";
 
 // Use custom replacer to allow stringifying even when response has circular references
